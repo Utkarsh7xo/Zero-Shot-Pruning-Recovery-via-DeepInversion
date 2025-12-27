@@ -2,6 +2,14 @@
 
 This project implements a pipeline to recover the accuracy of pruned neural networks without accessing the original training data. It uses DeepInversion to generate synthetic data from "Teacher" models and uses Knowledge Distillation to recover "Student" (pruned) models.
 
+### Project Report (arXiv)
+
+We provide a technical report describing the methodology, experiments, and results of this project:
+
+**Post-Pruning Accuracy Recovery via Data-Free Knowledge Distillation**  
+arXiv: https://arxiv.org/abs/2511.20702
+
+
 ## Execution Instructions
 
 Run the scripts in the following numerical order to complete the pipeline.
